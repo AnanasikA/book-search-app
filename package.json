@@ -2,7 +2,7 @@
   "name": "book-search-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ananasika.github.io/book_search_app",
+  "homepage": "https://ananasika.github.io/book-search-app",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
