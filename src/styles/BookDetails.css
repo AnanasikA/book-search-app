@@ -1,0 +1,48 @@
+/* Nowoczesna stylizacja dla szczegółów książki */
+.book-details {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.book-details h2 {
+  font-size: 24px;
+  color: #282c34;
+}
+
+.book-details p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.book-details h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+.book-details ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #555;
+}
+
+.book-details li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.book-details b, .book-details strong {
+  font-weight: bold;
+}
+
+.book-details i, .book-details em {
+  font-style: italic;
+}
