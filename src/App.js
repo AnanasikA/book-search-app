@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Provider } from 'react-redux';
 import store from './store/store';
-import SearchBar from './components/SearchBar';  // Import SearchBar
+import SearchBar from './components/SearchBar'; 
 import BookList from './components/BookList';
 import BookDetails from './components/BookDetails';
-import './App.css'; // Import globalnych stylów
+import './App.css'; 
 
 const App = () => {
   useEffect(() => {
@@ -33,7 +33,6 @@ const App = () => {
           <h1>Book Search App</h1>
         </header>
 
-        {/* Dodajemy pasek wyszukiwania */}
         <div className="scroll-in">
           <SearchBar />
         </div>

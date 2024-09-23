@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import BookItem from './BookItems';
 import Pagination from './Pagination';
-import '../styles/BookList.css'; // Import stylów
+import '../styles/BookList.css'; 
 
 const BookList = () => {
   const books = useSelector((state) => state.books);
 
-  // Paginacja - ustawiamy początkową stronę i liczbę książek na stronie
+  
   const [currentPage, setCurrentPage] = useState(1);
-  const booksPerPage = 9;  // Wyświetlamy 9 książek na stronę
+  const booksPerPage = 9;  
 
   // Obliczamy zakres książek na stronie
   const indexOfLastBook = currentPage * booksPerPage;

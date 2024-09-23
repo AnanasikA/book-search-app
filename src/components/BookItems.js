@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchBookDetails } from '../store/actions';
-import '../styles/BookItems.css'; // Import stylów
+import '../styles/BookItems.css';
 
 const BookItem = ({ book }) => {
   const dispatch = useDispatch();
